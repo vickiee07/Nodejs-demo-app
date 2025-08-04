@@ -29,8 +29,8 @@ jobs:
       - name: Log in to DockerHub
         uses: docker/login-action@v2
         with:
-          username: ${{ vickiee07 }}
-          password: ${{ dckr_pat_ICe1KHa3N8lFFK0jEZSH3uLQUto }}
+          username: vickiee07
+          password: dckr_pat_ICe1KHa3N8lFFK0jEZSH3uLQUto
 
       - name: Push Docker image
         run: docker push vickiee07/node-ci-cd-demo:latest }}/node-ci-cd-demo:latest .
