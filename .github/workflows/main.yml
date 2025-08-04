@@ -23,7 +23,7 @@ jobs:
         run: npm test
 
       - name: Build Docker image
-        run: docker build -t  vickieee07/app:jsn -f Dockerfile .
+        run: docker build -t  vickiee07/app:jsn -f Dockerfile .
 
       - name: Log in to DockerHub
         uses: docker/login-action@v2
