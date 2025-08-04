@@ -24,7 +24,7 @@ jobs:
         run: npm test
 
       - name: Build Docker image
-        run: docker build -t ${{ vickiee07 }}/node-ci-cd-demo:latest .
+        run: docker build -t vickieee07/node-ci-cd-demo:latest .
 
       - name: Log in to DockerHub
         uses: docker/login-action@v2
@@ -33,6 +33,6 @@ jobs:
           password: ${{ dckr_pat_ICe1KHa3N8lFFK0jEZSH3uLQUto }}
 
       - name: Push Docker image
-        run: docker push ${{ vickiee07}}/node-ci-cd-demo:latest }}/node-ci-cd-demo:latest .
+        run: docker push vickiee07/node-ci-cd-demo:latest }}/node-ci-cd-demo:latest .
 
       
