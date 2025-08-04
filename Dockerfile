@@ -6,3 +6,8 @@ RUN npm install
 COPY . .
 EXPOSE 3180
 CMD ["npm", "start"]
+
+
+
+
+
