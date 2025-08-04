@@ -30,7 +30,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: vickiee07
-          password: dckr_pat_6PAHC4aoukrHVcpy9Ag3D1FPQ4E
+          password: dckr_pat_v3Z3kDx7vGwKRcVx_6ZqWO4my5M
 
       - name: Push Docker image
         run: docker push vickiee07/app:jsn
