@@ -32,6 +32,6 @@ jobs:
           password: dckr_pat_v3Z3kDx7vGwKRcVx_6ZqWO4my5M
 
       - name: Push Docker image
-        run: docker push$ vickiee07/app:jsn
+        run: docker push vickiee07/app:jsn
 
       
