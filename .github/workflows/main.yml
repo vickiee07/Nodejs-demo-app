@@ -28,7 +28,7 @@ jobs:
       - name: Log in to DockerHub
         uses: docker/login-action@v2
         with:
-          username: vickiee007
+          username: vickiee07
           password: dckr_pat_v3Z3kDx7vGwKRcVx_6ZqWO4my5M
 
       - name: Push Docker image
